@@ -218,6 +218,8 @@ a{
     position: absolute;
     right: 0;bottom: 0;
     width: 325px;
+	margin-right:-30px;
+	margin-bottom:-15px;
 }
 /*==== BUTTONS ====*/
 .button{
