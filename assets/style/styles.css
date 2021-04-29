@@ -217,8 +217,8 @@ a{
 .home__img{
     position: absolute;
     right: 0;bottom: 0;
-    width: 325px;
-	margin-bottom:-25px;
+    width: 295px;
+	top:300px;
 }
 /*==== BUTTONS ====*/
 .button{
