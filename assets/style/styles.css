@@ -188,7 +188,7 @@ a{
 }
 /*==== HOME ====*/
 .home{
-    height: 100vh;
+    height: calc(100vh + 3rem);
     row-gap: 1rem; /* NEW */
 }
 .home__data{
