@@ -188,9 +188,8 @@ a{
 }
 /*==== HOME ====*/
 .home{
-    height: calc(100vh - 3rem);
+    height: 100vh;
     row-gap: 1rem; /* NEW */
-	height:100%;
 }
 .home__data{
     align-self: center;
