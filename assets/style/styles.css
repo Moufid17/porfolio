@@ -482,7 +482,7 @@ a{
 		width:650px;
 	}
 	img.skills__img{
-		width:800px;
+		width:800px !important;
 	}
 }
 /* @media screen and (max-width:768px) and (max-width:1024px){
@@ -515,7 +515,7 @@ a{
 		width:650px;
 	}
 	img.skills__img{
-		width:800px;
+		width:800px !important;
 	}
 }
 
