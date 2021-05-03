@@ -478,12 +478,29 @@ a{
         display: flex;
         justify-content: space-between;
     }
-	.skills__data_parent {
+	div.skills__data_parent{
 		width:650px;
 	}
 	img.skills__img{
 		width:800px;
 	}
+}
+@supports (-ms-ime-align:auto) {           
+ /* Input Microsoft Edge Styling */ 
+	div.skills__data_parent{
+		width:650px;
+	}
+	img.skills__img{
+		width:800px;
+	} 
+}    
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {            
+	div.skills__data_parent{
+		width:650px;
+	}
+	img.skills__img{
+		width:800px;
+	} 
 }
 /* @media screen and (max-width:768px) and (max-width:1024px){
     .home{ 
@@ -511,7 +528,7 @@ a{
         display: flex;
         justify-content: space-between;
     }
-	.skills__data_parent{
+	div.skills__data_parent{
 		width:650px;
 	}
 	img.skills__img{
