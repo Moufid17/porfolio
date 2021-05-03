@@ -505,7 +505,7 @@ a{
         display: flex;
         justify-content: space-between;
     }
-	.skills__text{
+	.skills__data{
 		width:50%;
 	}
 }
