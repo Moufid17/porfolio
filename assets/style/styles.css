@@ -478,11 +478,11 @@ a{
         display: flex;
         justify-content: space-between;
     }
-	.skills__data_parent{
+	.skills__data_parent {
 		width:650px;
 	}
 	img.skills__img{
-		width:800px !important;
+		width:800px;
 	}
 }
 /* @media screen and (max-width:768px) and (max-width:1024px){
