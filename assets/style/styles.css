@@ -478,8 +478,8 @@ a{
         display: flex;
         justify-content: space-between;
     }
-	.skills__img{
-		max-width:500px;
+	.skills__data::parent{
+		max-width:500%;
 	}
 }
 /* @media screen and (max-width:768px) and (max-width:1024px){
@@ -508,8 +508,8 @@ a{
         display: flex;
         justify-content: space-between;
     }
-	.skills__img{
-		max-width:500px;
+	.skills__data::parent{
+		max-width:100%;
 	}
 }
 
