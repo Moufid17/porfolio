@@ -481,6 +481,9 @@ a{
 	.skills__data::parent{
 		width:650px;
 	}
+	img.skills__img{
+		width:800px;
+	}
 }
 /* @media screen and (max-width:768px) and (max-width:1024px){
     .home{ 
@@ -511,8 +514,8 @@ a{
 	.skills__data::parent{
 		width:650px;
 	}
-	.img{
-		max-width:50%;
+	img.skills__img{
+		width:800px;
 	}
 }
 
