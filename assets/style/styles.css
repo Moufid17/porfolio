@@ -478,6 +478,9 @@ a{
         display: flex;
         justify-content: space-between;
     }
+	.skills__img{
+		width:500px;
+	}
 }
 /* @media screen and (max-width:768px) and (max-width:1024px){
     .home{ 
@@ -506,7 +509,7 @@ a{
         justify-content: space-between;
     }
 	.skills__img{
-		width:50%;
+		width:500px;
 	}
 }
 
