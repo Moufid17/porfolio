@@ -10,8 +10,6 @@
 
 /*==== Colores ====*/
 :root{
-    /* --first-color:#4070F4; */
-    /* --first-color:#03989e; */
     --first-color: #2bb42b;
     --second-color:#0E2430;
     --background-color: #fff;
@@ -318,6 +316,20 @@ a{
     border-radius: .5rem;
     /* height: 10px; width: 10px; */
 }
+.skills_img_title h3 a,.skills_img_title p:nth-child(3) {
+    color: var(--first-color);
+    margin-top:5px; 
+    text-align: center; 
+    margin-bottom: 2px;
+    opacity: .6;
+}
+.skills_img_title h3 a:hover{
+    opacity:.5;
+}
+.skills_img_title p:nth-child(3) {
+    color: var(--second-color);
+}
+
 /*==== WORK ====*/
 .work{
     text-align: center;
@@ -340,7 +352,6 @@ a{
 }
 .work__container p{
     margin-left: 0;
-    /* text-decoration: underline; */
 }
 .work__img{
     box-shadow: 0 4px 25px rgba(14,36,49, .15);
@@ -348,7 +359,7 @@ a{
     overflow: hidden;
 }
 .work__img img{
-    height: 250px;
+    height: 350px;
     width: 100%;
     transition: 1s;
     cursor: pointer;
