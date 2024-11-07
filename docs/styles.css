@@ -292,22 +292,22 @@ a{
     z-index: var(--z-back);
 }
 .skills__html{
-    width: 95%;
+    width: 60%;
 }
 .skills__css{
-    width: 65%;
+    width: 60%;
 }
 .skills__js{
-    width: 30%;
-}
-.skills__php{
-    width: 55%;
-}
-.skills__symfony{
     width: 40%;
 }
+.skills__php{
+    width: 75%;
+}
+.skills__symfony{
+    width: 75%;
+}
 .skills__bootstrap{
-    width: 60%;
+    width: 50%;
 }
 .skills__twig{
     width: 40%;
@@ -496,19 +496,6 @@ a{
 		width:800px;
 	}
 }
-
-/* @media screen and (max-width:768px) and (max-width:1024px){
-    .home{ 
-        padding-top: calc(var(--header-height) + 1rem);
-        height:100vh; 
-    }
-    .home__img{
-        width: 320px;
-        right: 2%;
-        opacity:.7;
-        bottom: 15%; 
-    } 
-} */
 
 @media screen and (min-width:1024px){
     .bg-grid{
