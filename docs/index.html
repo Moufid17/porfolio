@@ -7,6 +7,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./styles.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <title>Moufid Moutarou - All About Me</title>
 </head>
 <body>
@@ -203,12 +204,15 @@
         <section class="contact section bg-grid" id="contact">
             <h2 class="section-title">Contact</h2>
             <div class="contact__container">
-                <form action="#" class="contact_form">
-                    <input type="text" placeholder="Name" class="contact__input">
-                    <input type="mail" placeholder="Email" class="contact__input">
-                    <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
-                
-                    <input type="button" value="Send" class="contact__button button" title="Now, Not available." disabled>
+                <div id="status"></div>
+                <form id="contactForm" class="contact_form">
+                    <input type="email" id="email" name="email" placeholder="Email" class="contact__input" autofocus required>
+
+                    <input type="text" id="object" name="object" placeholder="Object" class="contact__input" required>
+                    
+                    <textarea id="message" name="message" cols="0" rows="10" placeholder="Message" class="contact__input" required></textarea>
+                    
+                    <button type="submit" id="contactFormBtn" class="contact__button button" title="Send my request">Send</button>
                 </form>
             </div>
         </section>
@@ -217,8 +221,6 @@
     <footer class="footer">
         <p class="footer__title">Moufid Moutarou</p>
         <div class="footer__social">
-            <a href="#" class="footer__icon"><i class='bx bxl-facebook-circle' ></i></a>
-            <a href="#" class="footer__icon"><i class='bx bxl-instagram-alt' ></i></a>
             <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
         </div>
         <p>&#169; 2024 Copyright - All right reserved.</p>
@@ -226,6 +228,11 @@
     <!--==== SCROLL REVEAL ====-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!--==== MAIN JS ====-->
-    <script src="./main.js"></script>        
+    <script src="./main.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("9EpacLIRz6pjU2ymX");
+        })();
+    </script>       
 </body>
 </html>
