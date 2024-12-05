@@ -99,20 +99,15 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
         subject: subjectField.value,
         message: messageField.value
     };
-
     
     // Envoie l'email avec EmailJS
     emailjs.send("service_1ar05kj", "template_lgzr5xk", emailParams).then(function(response) {
-            btn.value = 'Send';
-            console.log('Succès !');
-            document.getElementById('status').innerText = "Email envoyé avec succès !";
+        document.getElementById('status').innerText = "Email envoyé avec succès !";
     }, function(error) {
-        btn.value = 'Send';
         console.log('Erreur : Une erreur est survenue lors de l\'envoi de l\'email');
         console.log('Erreur :', error);
-        document.getElementById('status').innerText = "Une erreur est survenue lors de l'envoi de l'email.";
+        document.getElementById('status').innerText = "Une erreur est survenue lors de l'envoi de l'email. Veillez me contactez sur linkedin ou par mail.";
     });
-            
             
     // Réinitialisation des champs
     emailField.value = '';  
